@@ -1,7 +1,68 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
 
+.filtros{
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding: 1%;
+    background-color: lightseagreen;
+    box-shadow: 4px 4px 8px 0px #aaa;
+    color: white;
+    font-size: medium;
+    border-radius: 5px
+}
+
+#totalPersonajes{
+    font-size: large;
+}
+#personajes{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+}
 
 .personaje{
     border: 2px solid black;
-    margin: 10px;
+    margin: 5%;
+    padding: 10px;
+    background-color: cadetblue;
+    box-shadow: 9px 9px 8px 1px #607D8B;
+    border-radius: 15px
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+p{
+    color: white;
+}
+
+.paginado{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.disable {
+    background-color: #a1b3bc;
+    color: grey;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: 20px;
 }
